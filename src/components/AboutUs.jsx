@@ -1,7 +1,7 @@
 export default function ProjectSection() {
     return (
-        <div className="bg-gray-50 py-12 px-6 md:px-12 lg:px-24">
-            <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">About Us</h2>
+        <div className="bg-gray-50 py-12 px-6 md:px-12 lg:px-24" id="aboutUsSection">
+            <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">About Us: Mama Yoga Studio</h2>
 
             <div className="space-y-8 max-w-4xl mx-auto text-gray-700">
                 {/* Welcome Section */}

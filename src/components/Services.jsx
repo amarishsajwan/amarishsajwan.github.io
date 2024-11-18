@@ -4,7 +4,7 @@ import { serviceData } from "../custom/serviceData";
 
 export default function Services() {
     return (
-        <div className="bg-white py-12 px-6 md:px-12 lg:px-24">
+        <div className="bg-white  mt-12 px-6 md:px-12 lg:px-24">
             <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">Our Services</h2>
 
             <div className="space-y-8 max-w-4xl mx-auto text-gray-700">
