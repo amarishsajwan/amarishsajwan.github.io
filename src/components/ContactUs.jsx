@@ -6,13 +6,13 @@ const ContactUsSection = () => {
             <div className="bg-gray-100 p-8 w-[90%]  rounded-lg text-center shadow-lg">
                 <h2 className="text-3xl font-bold text-gray-800 mb-6">Contact Us</h2>
 
-                <div className="space-y-6">
+                <div className="space-y-6 font-semibold">
                     {/* Address Section */}
                     <div>
                         <h3 className="text-xl font-semibold text-orange-600 mb-2">Address</h3>
                         <p className="text-gray-700 font">phase 2, siddhi vihar, Lane 4, Bangakhala,
                         </p>
-                        <p className="text-gray-700">Nehrugram, Dehradun,</p>
+                        <p className="text-gray-700 ">Nehrugram, Dehradun,</p>
                         <p className="text-gray-700">Uttarakhand 248001</p>
                     </div>
 
