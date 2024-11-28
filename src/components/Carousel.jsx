@@ -32,10 +32,10 @@ export default function Carousel() {
     return () => clearInterval(interval);
   }, [currentIndex]);
   return (
-    <div className="md:block h-[600px] w-full relative group">
+    <div className="md:block h-[410px] mx-0 relative group">
       <div
         style={{ backgroundImage: `url(${images[currentIndex]})` }}
-        className="flex h-full w-full bg-top bg-cover bg-no-repeat  duration-500"
+        className="flex h-full w-full bg-center bg-[length:1600px_600px] bg-no-repeat  duration-500"
       >
         <div className="bg-black w-full h-full bg-opacity-50 ">
         </div>
