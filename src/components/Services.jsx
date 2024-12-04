@@ -4,7 +4,7 @@ import { serviceData } from "../custom/serviceData";
 
 export default function Services() {
     return (
-        <div className="bg-white  mt-12 px-6 md:px-12 lg:px-24">
+        <div className="bg-white  mt-12 px-6 text-base md:text-xl md:px-12 lg:px-24">
             <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">Our Services</h2>
 
             <div className="space-y-8 max-w-4xl mx-auto text-gray-700">
@@ -16,7 +16,7 @@ export default function Services() {
                     </p>
 
                     <h4 className="text-2xl font-semibold text-gray-800 mt-6">Why Prenatal Yoga is Important for Expecting Mothers</h4>
-                    <ul className="space-y-2 list-disc mt-4">
+                    <ul className="space-y-2  list-disc mt-4">
                         <li className="ml-5"><p><b>Relieves Pregnancy Discomforts:</b> Helps reduce back pain, swelling, and fatigue common during pregnancy.</p>
                         </li>
                         <li className="ml-5">

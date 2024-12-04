@@ -19,8 +19,8 @@ function App() {
       <Element name="aboutUs">
         <ProjectSection />
       </Element>
-      <ContactUsSection />
       <Element name="contactUs">
+        <ContactUsSection />
       </Element>
     </div>
   )

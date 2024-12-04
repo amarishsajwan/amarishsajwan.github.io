@@ -36,7 +36,7 @@ export default function Navbar() {
         console.log(window.scrollY);
     });
     return (
-        <div className='md:mx-auto md:container flex flex-row max-sm:items-center justify-between  md:flex-col'>
+        <div className='md:mx-auto md:container flex max-md:p-4 flex-row max-sm:items-center justify-between  md:flex-col'>
             {/* Logo Section */}
             <div ref={topNavbarRef} className="relative transition-none bg-gray-50 md:py-8 md:px-8 ">
                 <div className="flex justify-between">
@@ -47,7 +47,7 @@ export default function Navbar() {
                         </h1>
                         <h6 className="text-[#333] font-bold md:mt-[5px]">Nurturing Pregnancy - Way to Natural Delivery</h6>
                     </div>
-                    <div className=" hidden lg:show md:flex flex-col items-center font-bold">
+                    <div className=" hidden lg:show md:flex flex-col justify-center items-center font-bold">
                         <p className="text-gray-700">Book your Slot today</p>
                         <div className="flex items-center">
                             <FaPhone />
@@ -102,7 +102,7 @@ export default function Navbar() {
                     </h1>
                     <h6 className="text-[#333] font-bold md:mt-[5px]">Nurturing Pregnancy - Way to Natural Delivery</h6>
                 </div>
-                <ul className='pt-4 uppercase flex divide-y  divide-black  flex-col items-start'>
+                <ul className='pt-4  uppercase flex divide-y  divide-black  flex-col items-start'>
                     <li onClick={handleNav} className="p-4 cursor-default"> <Link to="services" onClick={handleNav} className='hover:font-bold' smooth={true} duration={500}>
                         Services
                     </Link></li>
