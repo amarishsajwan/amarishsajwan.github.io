@@ -3,7 +3,7 @@ import { FaPhone, FaInstagram, FaSquareInstagram } from "react-icons/fa6";
 const ContactUsSection = () => {
     return (
         <section className="bg-gray-800 py-12 flex items-center justify-center">
-            <div className="bg-gray-100 p-8 w-[90%]  text-base md:text-xl rounded-lg text-center shadow-lg">
+            <div className="bg-gray-100 p-8 w-[90%] max-w-7xl text-base md:text-xl rounded-lg text-center shadow-lg">
                 <h2 className="text-3xl font-bold text-gray-800 mb-6">Contact Us</h2>
 
                 <div className="space-y-6 font-semibold">

@@ -7,7 +7,7 @@ export default function Services() {
         <div className="bg-white  mt-12 px-6 text-base md:text-xl md:px-12 lg:px-24">
             <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">Our Services</h2>
 
-            <div className="space-y-8 max-w-4xl mx-auto text-gray-700">
+            <div className="space-y-8 max-w-7xl mx-auto text-gray-700">
                 {/* Prenatal Yoga Section */}
                 <div className="space-y-4">
                     <h3 className="text-3xl font-semibold text-red-600">Prenatal Yoga: Supporting Your Pregnancy Journey</h3>
